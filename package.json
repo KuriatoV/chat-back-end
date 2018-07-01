@@ -1,0 +1,26 @@
+{
+	"name": "chat-back-end",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"test": "mocha server/**/*.test.js",
+		"test-watch": "nodemon --exec 'npm test'",
+		"start": "node server/server.js"
+	},
+	"author": "KuriatoV",
+	"license": "ISC",
+	"engines": {
+		"node": "8.10.0"
+	},
+	"author": "KuriatoV",
+	"license": "ISC",
+	"dependencies": {
+		"express": "^4.16.3",
+		"moment": "^2.22.2",
+		"socket.io": "^2.1.1"
+	},
+	"devDependencies": {
+		"nodemon": "^1.17.5"
+	}
+}
